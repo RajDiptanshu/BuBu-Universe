@@ -43,6 +43,23 @@ Locks down everything that must stay constant across 100+ AI-generated episodes,
 - **Contrast target:** luminance range 0.80–0.90 between lightest and darkest frame areas — must read clearly on a small phone screen.
 - **One hero color per episode**, matched to Bubu's rotating accessory.
 
+### Episode 02+ Vibrancy Update (20–30% more saturated than Episode 01)
+
+Starting with Episode 02, every non-Bubu saturation range above shifts **more vibrant than Episode 01** — a deliberate, one-time franchise-wide bump for character recognition and feed/thumbnail standout, applied consistently going forward so future episodes remain mutually consistent. **Final, locked ranges (Phase 1 Canon Lock, 2026-06-14):**
+
+| Element | Episode 01 range | Episode 02+ range |
+|---|---|---|
+| Background | 0.20–0.35 | 0.24–0.42 |
+| Foreground/secondary objects | 0.55–0.70 | 0.65–0.82 |
+| Hero/payoff object | 0.75–0.90 | 0.85–0.93 |
+| Wonder Pebble turquoise flash (`#4FD1C5`, `bubu_universe_bible.md` §4) | n/a | 0.97–1.00 — the **sole exception above the hero band** |
+
+- **Bubu's own palette is exempt and unchanged** — `bubu_core_identity_block.md`'s fixed colors are never adjusted for saturation/lighting, per the rule above.
+- **Contrast target (0.80–0.90 luminance range) is unchanged** — this is a saturation change, not a contrast change, and must not push any frame area outside the legibility range.
+- **Relative ordering is preserved** — background < foreground/secondary < hero/payoff < Wonder Pebble flash — so World Rule #1 ("one quiet world, one loud payoff") still holds, with the Wonder Pebble flash as the one carefully-scoped exception that *announces* the payoff a beat before the hero object *delivers* it (`bubu_universe_bible.md` §4).
+- The hero/payoff band (0.85–0.93) is deliberately capped **below** both the Wonder Pebble flash and full saturation (1.00) — this keeps Bubu's world reading as calm-by-default even at its brightest moment, honoring `bubu_franchise_vision.md` §9's "never become visually overstimulating" constraint, while still reading as a clear step up from Episode 01's 0.75–0.90.
+- Episode 01 is **not retroactively changed** — this bump applies to Episode 02 onward (see "Episode 01 Grandfathering" in `production/production_bible.md`).
+
 ---
 
 ## Composition Rules

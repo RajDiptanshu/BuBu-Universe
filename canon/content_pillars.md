@@ -62,6 +62,21 @@
 
 ---
 
+## Core Action Word Vocabulary (Episode 02+)
+
+For early episodes, build and payoff words are drawn from a small, recognizable core set — **Tap! · Pop! · Splash! · Wow!** — repeated across pillars so toddlers learn the *words* as fast as they learn the *character* (sync rules in `canon/engagement_framework.md`).
+
+| Word | Role | Typical pillar(s) |
+|---|---|---|
+| **Tap!** | Build word | Water Play, Colors, Shapes, Counting — any pillar whose trunk-function is Pat/Tap |
+| **Pop!** | Build or payoff word | Counting (bubbles), Colors/Shapes (an object "pops" into its hero color) — always rendered per the fixed "Pop! Visual Definition" (color-fill + ~12% scale-bounce + 2-3 radiating particle dots, `canon/engagement_framework.md`) |
+| **Splash!** | Payoff word | Water Play (established, Episode 01) |
+| **Wow!** | Universal discovery word | Every pillar — fires when the episode's Wonder Pebble flashes turquoise (`canon/bubu_universe_bible.md` §4), immediately before that pillar's payoff word |
+
+This is a **starting vocabulary**, not a permanent restriction — once these four words are well-established (character/format recognition achieved), the **Action Word Expansion Roadmap** (`canon/engagement_framework.md`) introduces additional 1-2 word vocabulary in staged phases (Episodes 11-30, then 31+), per `bubu_franchise_vision.md` §8's educational goals.
+
+---
+
 ## Pillar Generation-Ease Ranking (for pilot selection)
 
 | Rank | Pillar | Why it's easy/hard |

@@ -81,18 +81,17 @@ Bubu is **warm, curious, and easily delighted** — a baby elephant who treats e
 
 ---
 
-## 7. Intro Sequence (~1.5s ID bumper, before Scene 1)
+## 7. BUBU! Brand Sting (0.5s, mandatory, before Scene 1)
 
-**What it is:** A short, fixed branding moment that precedes every episode's Scene 1 (Hello):
+**What it is:** A short, fixed branding moment that precedes **every** episode's Scene 1 (Hello) — formerly an optional ~1.5s "Intro Sequence" used only for compilations; now compressed to **0.5 seconds and mandatory on every episode, on every platform** (Episode 02+, per `canon/engagement_framework.md`'s "Beat 0"):
 
 1. Bubu appears already mid-**Wobble**, in the standard Curious pose and framing (40-55% frame height, center-left, eyes ~40% from top — same composition as every episode's Scene 1).
-2. Ears do one quick **Perk** (per Signature Reaction) toward camera, trunk lifts in a small wave-like **Point** toward the viewer.
-3. "Bubu!" text pops in with a soft chime (the *only* sound in the bumper).
-4. Hard cut directly into the episode's Scene 1 (Hello) — no transition effect, matching the channel's no-transitions rule.
+2. "BUBU!" text snaps in immediately, paired with a single soft chime (the *only* sound in the sting).
+3. Hard cut directly into the episode's Scene 1 (Hello) — no transition effect, matching the channel's no-transitions rule.
 
-**Why it works muted, in 2 seconds:** Every element (Wobble, Ear-Perk, Point, "Bubu!" text) is already a defined signature elsewhere in this bible and `character_bible.md` — the bumper is simply a concentrated, branding-only presentation of signatures the viewer will see again seconds later, training instant recognition through repetition.
+**Why it works muted, in 0.5 seconds:** Wobble + "BUBU!" text is already enough for instant recognition — the full Ear-Perk & Point (Signature #2) is deliberately *not* repeated here, since it already owns the Scene 1→2 transition; keeping the sting to these two elements avoids duplicating a later beat while still training instant recognition through repetition.
 
-**Reuse note:** For Shorts/Reels where the 12s episode itself loops continuously (per `editing_plan.md`), this bumper is **optional** and primarily intended for: channel trailers, long-form compilations (multiple episodes back-to-back), and any cross-platform placement where an explicit "this is Bubu" identifier is useful before the loop begins.
+**Runtime note:** the sting adds 0.5s to every episode's total runtime (10-15s 5-beat episode body → 10.5-15.5s total exported file), per `canon/engagement_framework.md`'s Beat 0 accounting.
 
 ---
 
@@ -102,10 +101,16 @@ Bubu is **warm, curious, and easily delighted** — a baby elephant who treats e
 
 1. Bubu performs the **Bubu Bounce** once (the small double-hop with both ears flapping outward, drawn directly from the existing Delight expression in `character_bible.md` — no new pose).
 2. Trunk lifts into a gentle wave (a Point held and rocked slightly side to side).
-3. "Bye, Bubu!" text fades in alongside a soft chime (echoing the Intro's chime, for a bookend feel).
+3. "Bye, Bubu!" text fades in alongside a soft chime (echoing the Brand Sting's chime, for a bookend feel).
 4. Fade to the channel's pastel background color (no logo card needed — Bubu's silhouette against the flat pastel background is the "logo").
 
-**Why it works muted, in 2 seconds:** The Bounce + wave + fade is the *visual inverse* of the Intro's Wobble + Perk + Point + cut-in — giving the channel a recognizable "open/close" bookend pattern built entirely from existing signatures and expressions.
+**Why it works muted, in 2 seconds:** The Bounce + wave + fade is the *visual inverse* of the Brand Sting's Wobble + "BUBU!" + cut-in — giving the channel a recognizable "open/close" bookend pattern built entirely from existing signatures and expressions.
+
+---
+
+## Voice Constraint — No Self-Introductions
+
+Bubu **never** delivers a verbal self-introduction (e.g., "Hi, I'm Bubu the Elephant!", "My name is Bubu," or any spoken/on-screen sentence describing who Bubu is) — in any episode, on any platform, with no exceptions. Recognition comes entirely from visual identity (`bubu_core_identity_block.md`), the **BUBU! Brand Sting** (Signature #7), and the "Bubu!" Scene 1 label — never from narrated self-description. This operates within, and does not replace, the full narration structure in `production/production_bible.md`'s Voice section.
 
 ---
 
@@ -119,7 +124,7 @@ Bubu is **warm, curious, and easily delighted** — a baby elephant who treats e
 | 4. Water & Splashes | Water Play pillar, turquoise hero color | None (optional background puddle cameo) |
 | 5. Fear of loud noises | Inverse of Surprise (ears in vs. out) + resting "J" trunk, tucked | None |
 | 6. "Arre, Bubu!" | Existing on-screen text + narration rules | None |
-| 7. Intro bumper | Wobble + Ear-Perk + Point + "Bubu!" text + chime | None (recombination only) |
+| 7. BUBU! Brand Sting | Wobble + "BUBU!" text + chime | None (recombination only) |
 | 8. Outro card | Delight/Bounce + Point-wave + "Bye, Bubu!" text + chime | None (recombination only) |
 
 **Bottom line:** every personality signature in this document is a *recombination* of poses, expressions, trunk functions, and text/audio rules that already exist in `character_bible.md`, `production_checklist.md`, and the Episode 01 files — meaning personality consistency carries the same low AI-generation drift risk as visual consistency, and can be checked using the existing `bubu_consistency_checklist.md` categories (no new checklist categories needed).

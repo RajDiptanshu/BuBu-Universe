@@ -34,7 +34,7 @@ Every structural choice in Bubu traces back to how 0-4 year-olds actually proces
 
 - **Predictability builds trust.** The 5-beat structure (Hello → Build → Anticipation → Payoff → Loop) never changes shape, only content — so a toddler learns *when* to expect the exciting part, which is itself calming.
 - **Repetition is the lesson, not a flaw.** World Rule #3 ("good things take three tries") and the Build word's 2-3 pulses aren't padding — repetition at this age is how words and cause-effect relationships are encoded.
-- **Calm is the default state; loud is the reward.** World Rule #1 (one quiet world, one loud payoff per episode) keeps background saturation at 0.20-0.35 and reserves full saturation (0.75-0.90) for a single Payoff moment — overstimulation is the single biggest risk in children's media for this age group, and Bubu is explicitly positioned (`canon/bubu_franchise_vision.md`) as the *calm* alternative.
+- **Calm is the default state; loud is the reward.** World Rule #1 (one quiet world, one loud payoff per episode) keeps the background muted and reserves the highest saturation for a single Payoff moment — overstimulation is the single biggest risk in children's media for this age group, and Bubu is explicitly positioned (`canon/bubu_franchise_vision.md`) as the *calm* alternative. Exact saturation ranges (including the Episode 02+ vibrancy update) live in `canon/visual_style_guide.md` — do not hardcode values here.
 - **One lesson at a time.** `canon/content_pillars.md` and `production/quality_checklist.md` Section D require a single learning objective per episode — mixed lessons are an automatic-fail-adjacent red flag because toddlers at this age cannot productively process two new concepts in 12 seconds.
 - **The world should feel alive without feeling busy.** "The meadow remembers" (World Rule #8) — Pebble Hill's growth and persisted glow-objects — gives repeat viewers a sense of an ongoing relationship with Bubu's world, which is what turns a "watched it once" viewer into a "returning viewer" (`production/channel_launch_plan.md` §5's most important long-term metric).
 
@@ -78,8 +78,8 @@ Selection is **not** "pick whichever idea feels most fun today." The roadmap's e
 This is the step that prevents drift *before* a single prompt is written. Walk through, in order:
 
 1. **Identity** (`canon/bubu_core_identity_block.md`) — does this episode require Bubu to do anything outside the fixed body/palette/trunk-rotation vocabulary? (It never should. If an idea seems to require it, the idea is wrong, not the identity.)
-2. **Personality** (`canon/bubu_personality_bible.md`) — does the episode correctly place the Wobble (running in Scenes 1/2/5, absent in Scene 3), the Ear-Perk & Point (Scene 1→2 transition only), and "Arre, Bubu! ...[payoff word]!" (Payoff beat only)? If this is a Big Feelings/Whisper Grass episode, does any fear pose fully resolve before the Delight payoff?
-3. **Universe** (`canon/bubu_universe_bible.md`) — is the location one of the 10 established locations, used with its established visual design? Does the Wonder Pebble logic match Season Guardrail #5 (create exactly one new pebble, or interact with an existing one — never both ambiguously, never neither)? Do all 8 World Rules hold?
+2. **Personality** (`canon/bubu_personality_bible.md`) — does the episode correctly place the Wobble (running in Scenes 1/2/5, absent in Scene 3), the Ear-Perk & Point (Scene 1→2 transition only), the mandatory Scene 0 "BUBU!" Brand Sting, and "Arre, Bubu! ...[payoff word]!" (Payoff beat only)? Does narration avoid any self-introduction (Voice Constraint)? If this is a Big Feelings/Whisper Grass episode, does any fear pose fully resolve before the Delight payoff?
+3. **Universe** (`canon/bubu_universe_bible.md`) — is the location one of the 10 established locations (within Bubu Grove), used with its established visual design? Does this episode's Wonder Pebble appear from Scene 1 and flash turquoise (`#4FD1C5`) at the Anticipation→Payoff transition to trigger "Wow!", following the announce→deliver→crown payoff hierarchy and the 0.3s flash-timing window, per Season Guardrail #5's bookkeeping for which pebble is being discovered? Do all 9 World Rules hold, including the Audio Ownership Rule (#9 — each signature sound stays in its one designated moment) and the Episode Continuity Rule (§10 — Pebble Hill tier, Flagship claim log, hero-color non-repetition window)?
 4. **Content Pillar** (`canon/content_pillars.md`) — is there exactly one learning objective, matching the assigned pillar?
 5. **Engagement Framework** (`canon/engagement_framework.md`) — does the 12s (or 10s/15s variant) 5-beat structure fit this idea without forcing or padding?
 6. **Visual Style** (`canon/visual_style_guide.md`) — background set-piece count ≤2, object count within the 3-5 cap, single hero color, static camera.
@@ -94,11 +94,12 @@ If any check fails, the episode does **not** proceed to Step 4 until the idea is
 
 This is where the episode's specific *content* is written, using the most recently produced episode's full package as a structural template (do not write from a blank page — copy the table structure from the prior episode and replace content). Every cell must trace back to a canon rule:
 
-- Scene 1 (Hello, 0-2s): Curious expression, trunk at 0°, Wobble running, establishes location + any persisted glow-objects.
+- **Scene 0 (BUBU! Brand Sting, -0.5-0s, Episode 02+):** Curious expression, trunk at 0°, Wobble running, "BUBU!" text + chime, hard cut into Scene 1 (`canon/engagement_framework.md` Beat 0).
+- Scene 1 (Hello, 0-2s): Curious expression, trunk at 0°, Wobble running, establishes location + any persisted glow-objects, including this episode's pale gray-blue **Wonder Pebble** (`canon/bubu_universe_bible.md` §4).
 - Scene 2 (Build, 2-6s): Focused expression, trunk at ~90°, the chosen trunk-function (Point/Hold/Spray/Pat-Tap) repeated per World Rule #3 (1-3 reps), build word pulses.
 - Scene 3 (Anticipation, 6-8s): Surprise expression, trunk at ~180°, all motion stops, Wobble paused, silent.
-- Scene 4 (Payoff, 8-11s): Delight expression, trunk at ~215-225°, the single saturated payoff moment, "Arre, Bubu! ...[payoff word]!"
-- Scene 5 (Loop, 11-12s): returns to Scene 1's pose/framing, persisted state updates (Wonder Pebble glow, etc.) carried forward.
+- Scene 4 (Payoff, 8-11s): Delight expression, trunk at ~215-225°, the Wonder Pebble flashes turquoise (`#4FD1C5`) triggering "Wow!", immediately followed by the single saturated payoff moment in the episode's hero color, "Arre, Bubu! ...[payoff word]!"
+- Scene 5 (Loop, 11-12s): returns to Scene 1's pose/framing, persisted state updates (Wonder Pebble now turquoise, etc.) carried forward.
 
 For 10s/15s variants, adjust per `canon/engagement_framework.md`'s variant rules (10s = 2 Build reps; 15s = 3 slower Build reps + extended 4s Payoff) — but the beat *order* and *function* never change.
 
@@ -107,7 +108,7 @@ For 10s/15s variants, adjust per `canon/engagement_framework.md`'s variant rules
 **Input:** The completed Scene Breakdown. **Output:** 5 image prompts (one per scene), each built from the **Shared Bubu Description** + scene-specific pose/expression/background details + the shared negative prompt.
 
 Every prompt starts with the verbatim **Shared Bubu Description** (copy it from the most recent episode's full package — it should be byte-identical across all episodes, sourced from `canon/bubu_core_identity_block.md`). Append:
-- The episode's background description (location's established visual design, ≤2 set-pieces, saturation 0.20-0.35 except where a scene calls for the Payoff's 0.75-0.90).
+- The episode's background description (location's established visual design, ≤2 set-pieces, saturation per `canon/visual_style_guide.md`'s ranges — Episode 02+ uses the vibrancy-updated ranges, except where a scene calls for the Payoff saturation).
 - The scene's specific pose: expression name + exact trunk rotation in degrees, per the pose table.
 - Any objects/pebbles and their current glow states (carried forward from the previous episode that touched them).
 - The shared negative prompt (`references/bubu_master_prompt.md` / `references/bubu_reference_generation.md`) — tusks, wrinkles, skin texture, toenails, extra limbs, second character, etc.
@@ -135,6 +136,8 @@ See Section 6 for the full music/SFX/voice/catchphrase rules.
 ## Step 9 — Editing
 
 **Input:** 5 video clips + audio assets. **Output:** A single assembled file, hard-cut (no transition effects) in scene order, with text overlays, music, SFX, and narration synced per the Editing Plan (Section 4 of the full package), runtime 10-15s (default 12s).
+
+**Episode 02+:** before exporting, **prepend** the evergreen Scene 0 master asset (`production/assets/bubu_brand_sting.mp4`, 0.5s, byte-identical across all episodes — see `canon/engagement_framework.md` Beat 0) to the assembled Scenes 1-5 via concat. This is the only step that touches Scene 0; Scenes 1-5's assembly, text, music, and SFX work exactly as described above, unchanged. Total exported runtime becomes 10.5-15.5s.
 
 ## Step 10 — QA
 
@@ -248,13 +251,23 @@ Per `canon/engagement_framework.md`, the default 12s episode uses:
 | 4 | Payoff | 3s |
 | 5 | Loop | 1s (generate at 2s minimum, then trim) |
 
-For the 10s variant, Scene 2 is reduced to 2 reps (shorter Build). For the 15s variant, Scene 2 extends to 3 slower reps (6s) and Scene 4 extends to 4s. **The 5-beat order and each beat's function never change** — only Scene 2 and Scene 4's durations flex, and total runtime must stay within **10-15 seconds** (an Automatic Fail condition if violated).
+For the 10s variant, Scene 2 is reduced to 2 reps (shorter Build). For the 15s variant, Scene 2 extends to 3 slower reps (6s) and Scene 4 extends to 4s. **The 5-beat order and each beat's function never change** — only Scene 2 and Scene 4's durations flex, and the **5-scene episode body** (Scenes 1-5) must stay within **10-15 seconds** (an Automatic Fail condition if violated).
+
+**Episode 02+:** every episode is preceded by a mandatory **Scene 0 — "BUBU!" Brand Sting** (0.5s, hard-cut into Scene 1; see `canon/engagement_framework.md` Beat 0 and `canon/bubu_personality_bible.md` §7). Total exported file runtime is therefore **10.5-15.5 seconds** (Scenes 1-5's 10-15s plus the 0.5s sting).
 
 ## Transition Rules
 
 **There are no transition effects, ever.** The 5 scene clips are concatenated with **hard joins only** (Section 9, Step 9 — Editing). Visual continuity between scenes comes entirely from each scene's keyframe matching the *end state* of the previous scene and the *start state* of the next — i.e., continuity is solved at the Image Generation stage (Step 6), not the editing stage. If a hard join "feels" like it needs a transition effect to smooth it over, that is a signal the keyframes themselves don't connect — go back to Step 6, not forward to adding a crossfade.
 
 The one exception that is *not* a transition effect: the Scene 5 → Scene 1 **loop point**, when the platform auto-replays the video. This is solved the same way — Scene 5's trimmed final frame must closely match Scene 1's opening frame (per-episode Loop Check in the Editing Plan) — so that the loop reads as continuous motion, not a cut.
+
+## Episode 01 Grandfathering
+
+**Episode 01 ("Bubu's Splash") is permanently exempt from the 2026-06-14 Episode 02+ canon update's items 1-6** (every-episode Wonder Pebble with turquoise flash, "Bubu Grove" naming, the vibrancy/saturation bump, the mandatory Scene 0 Brand Sting, the core action-word vocabulary, and the No Self-Introductions voice constraint). Episode 01 is **not retroactively edited** to add any of these — its existing exported file (`episodes/episode_01_bubus_splash/final/bubu_ep01_waterplay_splash_final.mp4`) remains the canonical, published Episode 01.
+
+- This exemption is permanent, not a temporary backlog item — Episode 01 predates the Wonder Pebble/Bubu Grove/Brand Sting/vocabulary system entirely, and rebuilding it to match would be a full re-production, not a fix.
+- An **optional remaster** of Episode 01 (bringing it in line with Episode 02+ canon) may be considered only **after Episode 25** has published, purely as a "season 1 polish" pass — never as a blocker to Episode 02+ production, and never scheduled into the regular roadmap cadence.
+- All canon validation, continuity bookkeeping (§10), and Pebble Hill tracking begin counting from **Episode 02** — Episode 01 contributes no Wonder Pebble, hero-color-history, or Pebble Hill entry to the continuity system.
 
 ---
 
@@ -273,21 +286,26 @@ Daily Routines-pillar episodes use a calmer, slightly slower percussion pacing t
 
 ## SFX
 
-**Exactly one sound effect per episode** (World Rule #6), placed precisely at the Payoff frame — and nowhere else. This is checked twice: at QA (`production/quality_checklist.md` Automatic Fail conditions — "more than one SFX, or the single SFX plays anywhere other than the Payoff moment") and at the Red Flag List level (SFX more than ~2 frames early/late relative to the Payoff visual).
+**Exactly one Payoff SFX per episode** (World Rule #6), placed precisely at the Payoff frame — and nowhere else. This is checked twice: at QA (`production/quality_checklist.md` Automatic Fail conditions — "more than one SFX, or the single SFX plays anywhere other than the Payoff moment") and at the Red Flag List level (SFX more than ~2 frames early/late relative to the Payoff visual).
 
 The SFX character should match the episode's payoff: a "splash" for Water Play, a "chime/sparkle" for a glow-object lighting up, etc. — chosen to be the *richest/fullest* version appropriate to the episode's place in its arc (e.g., Episode 10's splash SFX was explicitly the "fullest, richest version used yet" as the first-10 capstone). Build-beat repetitions are **never** carried by SFX — they are carried by the music's percussion ticks (see Music, above), preserving the single-SFX rule.
+
+**Episode 02+ — Wonder Pebble discovery twinkle and Brand Sting chime:** two additional fixed audio cues exist alongside the Payoff SFX — the Beat 0 brand-sting chime and the Wonder Pebble discovery twinkle (woven into the music bed at the Anticipation→Payoff boundary, per World Rule #6's amendment). Per the **Audio Ownership Rule** (World Rule #9, full spec in `canon/bubu_audio_bible.md`), these three cues — brand-sting chime, discovery twinkle, Payoff SFX — each belong to exactly one moment and are never substituted, reordered, or reused for a different beat.
 
 ## Voice
 
 Narration is sparse, simple, and tightly synced to on-screen text:
 
+- Scene 0 (Episode 02+): "BUBU!" + soft chime — the brand sting's only sound.
 - Scene 1: the single word "Bubu!"
-- Scene 2: the build word, spoken once per repetition (e.g., "Fill! Fill! Fill!")
+- Scene 2: the build word, spoken once per repetition (e.g., "Tap! Tap! Tap!") — drawn from the core action-word vocabulary (`canon/content_pillars.md`) where applicable.
 - Scene 3: silence — no narration.
-- Scene 4: "Arre, Bubu! ...[payoff word]!" — delivered with the most energy of the episode.
+- Scene 4: "Wow!" (the Wonder Pebble's discovery flash) immediately followed by "Arre, Bubu! ...[payoff word]!" — delivered with the most energy of the episode.
 - Scene 5: optional, soft, wordless content hum — never new words.
 
 No dialogue beyond this structure exists in a standard-pillar episode. Narration pacing should be consistent with prior episodes in the same pillar — a Red Flag List item is "narration pacing feels rushed or compressed compared to prior episodes in the same pillar," since toddlers register pacing changes even when they can't articulate them.
+
+**No self-introductions:** Bubu never speaks or displays a self-introduction sentence (e.g., "Hi, I'm Bubu the Elephant!"). Recognition relies entirely on the Brand Sting, visual identity, and the structure above — see `canon/bubu_personality_bible.md`'s Voice Constraint. This is an Automatic Fail condition if violated.
 
 ## Catchphrase Usage
 
@@ -314,13 +332,18 @@ Examples:
 
 Formula: **one sentence naming the build/payoff words** + **one curiosity-framed replay invitation**. Never includes "like and subscribe" pressure language — per `canon/bubu_franchise_vision.md` §9, Bubu is never ad-heavy or manipulative, and that standard extends to its own channel's calls-to-action.
 
+**Episode 02+ — Bubu Grove closing line:** every description ends with the fixed closing line **"Another wonder discovered in Bubu Grove! 🌿"** — the only place "Bubu Grove" appears as a proper name in published metadata (it is never shown on-screen, per `canon/bubu_universe_bible.md` §6).
+
 ## Tags
 
-Fixed **5-tag, 3-tier hashtag system** (per `production/channel_launch_plan.md` §4):
+**Episode 02+ — fixed 6-tag, 4-tier hashtag system** (extends the 5-tag system per `production/channel_launch_plan.md` §4):
 1. One core brand tag: `#Bubu`
 2. One pillar tag (e.g., `#WaterPlay`, `#Counting`, `#DailyRoutines`)
 3. One keyword/location tag (e.g., `#Splash`, `#PebbleHill`)
-4-5. Two fixed category tags, always present: `#ToddlerLearning #PreschoolLearning`
+4. One fixed world tag, always present: `#BubuGrove`
+5-6. Two fixed category tags, always present: `#ToddlerLearning #PreschoolLearning`
+
+Episode 01 retains the original 5-tag system (no `#BubuGrove` tag), per Episode 01 Grandfathering above.
 
 ## Playlist
 
@@ -373,7 +396,7 @@ Everything else (the individual canon layer files — identity, personality, uni
 No matter how experienced the team becomes, three categories of decision are **never** made ad hoc, because they are the load-bearing walls of a 1000-episode franchise:
 
 1. **Anything in `canon/bubu_core_identity_block.md`** — Bubu's body, palette, proportions, trunk shape, ear shape. If a new episode idea seems to *require* a change here, the idea is wrong. Full stop.
-2. **Anything in `canon/bubu_universe_bible.md`'s 8 World Rules** — especially World Rule #8 ("the meadow remembers"). Wonder Pebble and glow-object states are **append-only history** — a future episode can never contradict what a past episode established.
+2. **Anything in `canon/bubu_universe_bible.md`'s 9 World Rules** — especially World Rule #8 ("the meadow remembers") and World Rule #9 (Audio Ownership Rule). Wonder Pebble, glow-object, and Pebble Hill tier states are **append-only history** (formalized in §10's Episode Continuity Rule) — a future episode can never contradict what a past episode established.
 3. **The 5-beat structure and its signature behaviors** (Wobble, Ear-Perk & Point, "Arre, Bubu!") — these are *the* recognition mechanism. An episode that quietly drops or relocates one of these has broken the product even if every other element is perfect.
 
 If a team member — human or AI — finds themselves about to make a decision in one of these three categories without an explicit canon update, the correct action is to **stop and raise it as a canon question**, not to proceed and document the deviation afterward. A canon change is a deliberate, repo-wide decision (editing the relevant `canon/` file, which then governs all future episodes); it is never a per-episode workaround.
