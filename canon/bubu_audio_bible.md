@@ -10,7 +10,7 @@
 
 Every episode's audio is built from exactly **two layers**, never more:
 
-1. **The continuous layer** — one music bed (`audio/music_bed.mp3`), running gently from the start of Beat 1 to the end of Beat 5, looping seamlessly back to its own start so the episode's Loop→Hello transition is audio-seamless too. This layer also carries the **Wonder Pebble discovery twinkle** (§2) as a brief musical accent — never a separate "sound."
+1. **The continuous layer** — one music bed (`audio/music_bed.mp3`), running gently from the start of Beat 1 to the end of Beat 5, looping seamlessly back to its own start so the episode's Loop→Hello transition is audio-seamless too. This layer also carries the **Wonder Pebble discovery twinkle** (§2) as a brief musical accent — never a separate "sound." From Episode 2 onward, it may also carry **rhythmic chant vocals** built from the episode's action words (e.g., "Tap tap tap... Tap tap tap... Splash!"), woven into the music bed exactly like the twinkle — music, not narration (World Rule #10, the Audio Evolution Rule; full spec in §3).
 2. **The single notable-sound layer** — exactly **one Payoff SFX** (§3 of `production/production_bible.md`'s Audio Workflow), placed precisely at the Payoff frame.
 
 Beat 0's brand-sting chime (§1) sits *outside* both layers — it occupies its own isolated 0.5s, with the music bed silent, so it is never confused with either layer.
@@ -48,7 +48,10 @@ Beat 0's brand-sting chime (§1) sits *outside* both layers — it occupies its 
 
 ## 3. Action Word Audio System
 
-Action words are **narrated**, not sung, in Episodes 2-10 (Phase 1) — each word is a short, clearly-enunciated spoken word, synced 1:1 with its on-screen text pulse (`canon/engagement_framework.md`).
+Action words reach the audience in two independent ways, both available from Episode 2 — an episode may use either, both, or neither, with no change to its visual or timing structure:
+
+- **Narration** (optional) — each word as a short, clearly-enunciated spoken word, synced 1:1 with its on-screen text pulse (`canon/engagement_framework.md`).
+- **Chant vocals** (Audio Evolution Rule, World Rule #10 — see below) — the same words sung/chanted rhythmically and mixed directly into the music bed, as part of the continuous layer (§0).
 
 ### Phase 1 core words (Episodes 2-10)
 
@@ -60,6 +63,36 @@ Action words are **narrated**, not sung, in Episodes 2-10 (Phase 1) — each wor
 | **Wow!** | Spoken brightly, slightly *before* the pillar payoff word ("Wow!... Splash!"), riding on the Wonder Pebble discovery twinkle (§2) — see `audio/wow_swell.wav` below. | Anticipation→Payoff boundary, immediately preceding the pillar payoff word |
 
 **New asset — `audio/wow_swell.wav`** (new, to be produced): a very brief (≈0.4s) upward swell in the music bed's own instrumentation (strings/pads, *not* a new instrument) timed to lift underneath the spoken "Wow!" and the discovery twinkle together. This is a **music-bed variation**, not a separate SFX — it is the music layer's way of "leaning into" the discovery moment for one beat, then settling back into its normal dynamic for the Payoff SFX and "Arre, Bubu!" line.
+
+### Chant Vocals (Audio Evolution Rule, World Rule #10 — Episodes 2+)
+
+Starting with Episode 2, the Build and Payoff words of §3's core vocabulary may additionally be delivered as a **rhythmic chant**, sung/spoken on the music bed's own beat and mixed into the continuous layer (§0) — for example:
+
+> Tap tap tap...
+> Tap tap tap...
+> Splash!
+
+| Property | Specification |
+|---|---|
+| **Layer** | Part of the **music bed** (continuous layer, §0) — mixed in parallel with the music bed's instrumentation, ducked together with it (§4 Ducking). Never the notable-sound layer, and never a substitute for the single Payoff SFX. |
+| **Relationship to narration** | Independent of narration (§3 above). An episode may carry chant vocals with no spoken narration, spoken narration with no chant, both together, or neither — none of these choices change the episode's visual structure, beat timing, or Audio Ownership Rule mappings (§5). |
+| **Word source** | Reuses the same Build/Payoff words already on screen (Phase 1 core: Tap!/Pop!/Splash!/Wow!, and later Phase 2/3 words per the Action Word Expansion Roadmap) — chants never introduce vocabulary that isn't already part of that episode's on-screen text. |
+| **Rhythm** | Chant repetitions align with the Build beat's repetition count (1-3, World Rule #3) and the music bed's tempo — "Tap tap tap..." lands on the same ticks as the `tap.wav` percussion (§3), so chant and percussion reinforce rather than compete. |
+| **Production cost** | No new asset categories — chant vocals are recorded once per chant phrase and mixed into the relevant `music_bed.mp3` variant, the same reusable-asset model as `wow_swell.wav` and the discovery twinkle. |
+
+### Song Fragments (Song Fragment Rule, World Rule #11)
+
+Any chant-vocal sequence (above) that demonstrates **exceptional retention** may be promoted to an **evergreen musical fragment** — a short, fixed melodic phrase reused identically wherever that action-word sequence recurs.
+
+Examples: "Tap Tap Tap Splash," "Pop Pop Pop Wow."
+
+| Property | Specification |
+|---|---|
+| **Promotion trigger** | Demonstrated exceptional retention (analytics review), not a production-time decision — fragments are identified retroactively from what already works, never designed speculatively in advance. |
+| **Before promotion** | An ordinary chant vocal (above) — governed by the same layer, ducking, and word-source rules as any other chant. |
+| **After promotion** | An evergreen asset, like `wow_swell.wav` or the discovery twinkle — fixed melody, fixed words, reused byte-identical (or loudness-matched) across every episode that uses that action-word sequence. |
+| **Audio Ownership** | Once promoted, a fragment falls under the Audio Ownership Rule (§5 / World Rule #9) — its melody is permanently tied to its specific action-word sequence and is never reused for a different sequence. |
+| **Relationship to full songs** | A fragment is the smallest unit that may later be expanded into a full song (§8, Episodes 31-100 "Musical Motifs") — promoting a fragment does not itself create a song. Song creation remains a separate, future phase. |
 
 ### Phase 2 / Phase 3 words (audio approach only — see §6 Roadmap)
 
@@ -174,10 +207,11 @@ The roadmap is staged to match the **Action Word Expansion Roadmap** (`canon/eng
 - Uses only the assets defined in §6: `music_bed.mp3`, `tap.wav`, `pop.wav`, `splash.wav`, plus the three new evergreen assets (`brand_sting_chime.wav`, `pebble_discovery.wav`, `wow_swell.wav`).
 - Audio production cost per episode is **near-zero** beyond mixing — every sound is a reused asset, placed according to the fixed timing in §4 and §7.
 - Goal: lock the two-layer model, the brand sting, and the discovery twinkle as instantly-recognizable, before introducing any new audio vocabulary.
+- **Chant vocals optional from Episode 2** (Audio Evolution Rule, §3): Phase 1 core words may be mixed into the music bed as a rhythmic chant (e.g., "Tap tap tap... Tap tap tap... Splash!"), independent of whether spoken narration is also used. This reuses Phase 1 vocabulary only — it does not pull forward any Phase 2/3 vocabulary or any new asset category.
 
 ### Episodes 11-30 — Chants (Call-and-Response)
 
-- Introduces audio support for the Action Word Expansion Roadmap's Phase 2 words (Zoom!, Hop!, Glow!, Shine!).
+- Extends the chant-vocal mechanism introduced in Episodes 2-10 (Audio Evolution Rule, §3) to **new** vocabulary — where Episodes 2-10 chant only the existing Phase 1 words, this stage introduces audio support for the Action Word Expansion Roadmap's Phase 2 words (Zoom!, Hop!, Glow!, Shine!).
 - Each new word is introduced via a short **chant**: a simple call-and-response between Bubu (or the on-screen text/narration) and the narrator — e.g., narrator: "What does Bubu do?" / payoff beat: "Zoom!" — recorded as short, reusable vocal phrases layered *on top of* the existing music bed, not as new musical compositions.
 - Chants are **not songs**: no verse/chorus structure, no melody distinct from the music bed's existing key/tempo — they are spoken/chanted phrases that reuse the Phase 1 timing model (build-word repetitions, payoff-word + "Arre, Bubu!").
 - Production cost stays low: each new word requires one short recorded phrase, reused across every episode that uses that word, exactly like `tap.wav`/`pop.wav`/`splash.wav` today.
@@ -185,6 +219,7 @@ The roadmap is staged to match the **Action Word Expansion Roadmap** (`canon/eng
 ### Episodes 31-100 — Musical Motifs (Pre-Song Groundwork)
 
 - Each content pillar is assigned a short (2-3 note) **musical motif**, played by the music bed during that pillar's Payoff swell (replacing/extending `wow_swell.wav` with a pillar-flavored variant of the same swell, at the same loudness and timing).
+- Any pillar that already has a **promoted Song Fragment** (§3, World Rule #11) by this stage should use that fragment's melody as the basis for its motif — this is the natural convergence point between Episodes 2-30's chants/fragments and Episodes 31-100's motifs.
 - Motifs are designed to be **forward-compatible with future songs** — each motif is a fragment simple enough to later become a song's hook, without requiring any rework of the Episodes 2-100 audio mixes when that future phase begins.
 - **Explicitly out of scope for this roadmap:** full original songs, verse/chorus structures, or any new vocal recording beyond short motif instrumentation. This phase only prepares the *musical material* — actual song creation remains a separate, future phase, to be scoped only once Episodes 31-100 are underway and the motifs have been validated for retention.
 - Maintains calm-preschool identity: motifs are short, gentle, and live entirely within the existing music bed's instrumentation — no new instruments, no tempo changes, no increase in overall loudness beyond the §4 targets.

@@ -178,41 +178,43 @@ Seasonal pebbles are **facet-color and merchandising hooks only** — they are p
 
 ---
 
+## Named Pebble Cadence Rule
+
+Per `bubu_universe_bible.md` World Rule #8, **every episode** still has a Wonder Pebble that flashes turquoise at the Anticipation→Payoff transition — that never changes. But a **Named (Flagship/Educational/Seasonal) pebble** is claimed only roughly **every 3-5 episodes**; every other episode uses a Generic pebble. This applies from Episode 2 onward, including Episodes 2-25 (superseding any denser placement implied by an earlier draft of this table).
+
+**Why:** spacing out named claims means Pebble Hill's facet-colored pebbles stay rare and meaningful — by the time Episode 100 arrives, a hillside of mostly-turquoise Generic pebbles with a scattering of facet-colored Named ones reads as *earned* history, not a cluttered checklist.
+
 ## Recommended Rollout Order (Episodes 2-25)
 
-Most episodes use a Generic Wonder Pebble (no entry needed). The table below places only the **21 Flagship/Educational/Seasonal pebbles** that fall within Episodes 2-25, respecting pillar rotation (`production/production_bible.md` Step 2) and the Arc 4 English-before-Hindi dependency. Episodes not listed use a Generic pebble.
+Named pebbles land on a roughly-every-4-episode cadence: **Episodes 2, 6, 10, 14, 18, 22**. All other episodes (3-5, 7-9, 11-13, 15-17, 19-21, 23-25) use a Generic pebble. Only **6 of the 21** Flagship/Educational/Seasonal pebbles are placed within this range — the remaining 15 move to the Episode 26+ pool below, to be scheduled at the same cadence as the franchise grows.
 
 | Episode | Pebble | Category | Pillar tie-in |
 |---|---|---|---|
 | 2 | First Wonder Pebble | Flagship | Mechanic introduction (any easy pillar) |
-| 3 | Red Bloom Pebble | Educational | Colors |
-| 4 | Circle Spin Pebble | Educational | Shapes |
-| 5 | Counting Crown Pebble | Flagship | Counting |
-| 6 | Splash Pebble | Flagship | Water Play |
-| 7 | Go-Go Pebble | Educational | Things That Go |
-| 8 | Bounce Bright Pebble | Educational | Colors |
-| 9 | Home Glow Pebble | Flagship | Daily Routines |
-| 10 | Two Step Pebble | Educational | Counting |
-| 11 | Shape Star Pebble | Educational | Shapes (first "Shine!" word, Phase 2) |
-| 12 | New Beginnings Pebble | Seasonal | Any (New Year window) |
-| 13 | First Friend Pebble | Flagship | Animal Friends — opens Friendship Pond |
-| 14 | Roll Along Pebble | Educational | Counting |
-| 15 | Slide Down Pebble | Educational | Playground |
-| 16 | Three Together Pebble | Educational | Counting |
-| 17 | Splash Twin Pebble | Educational | Water Play — Pebble Hill growth episode |
-| 18 | Wash Time Pebble | Educational | Daily Routines |
-| 19 | Namaste Pebble | Educational | Animal Friends (Arc 4, after Ep13) |
-| 20 | Festival Lights Pebble | Seasonal | Colors (festival window) |
-| 21 | Rainy Day Pebble | Seasonal | Big Feelings / Whisper Grass |
-| 22 | Snug Season Pebble | Seasonal | Daily Routines (winter window) |
+| 3-5 | — (Generic pebbles) | — | |
+| 6 | Red Bloom Pebble | Educational | Colors |
+| 7-9 | — (Generic pebbles) | — | |
+| 10 | Counting Crown Pebble | Flagship | Counting |
+| 11-13 | — (Generic pebbles) | — | |
+| 14 | Splash Pebble | Flagship | Water Play — the franchise's signature "favorite thing" |
+| 15-17 | — (Generic pebbles) | — | |
+| 18 | First Friend Pebble | Flagship | Animal Friends — opens Friendship Pond |
+| 19-21 | — (Generic pebbles) | — | |
+| 22 | Home Glow Pebble | Flagship | Daily Routines — the Nook/home |
 | 23-25 | — (Generic pebbles) | — | A deliberate "quiet stretch" before the Episode 25 milestone, and the natural point to revisit Episode 01 grandfathering (`production/production_bible.md`) |
+
+By Episode 22, all **5 Franchise Flagship pebbles** plus Red Bloom (Colors, the easiest pillar) are claimed — establishing the Wonder Pebble system, the Nook, Animal Friends/Friendship Pond, Counting, and Water Play as Pebble Hill's earliest landmarks, with the remaining Educational/Seasonal variety arriving gradually afterward.
 
 ---
 
-## Future Franchise Roadmap (Episode 26+)
+## Episode 26+ Pool and Future Franchise Roadmap
 
-- **Episodes 26-49:** Continue Educational/Seasonal pebble releases at a similar pace (roughly 1 named pebble per 3-5 episodes), drawn from remaining pillar/concept combinations not yet covered (e.g., additional colors, shapes, vehicle types, Animal Friends), with new entries added to this taxonomy as they're designed — never retrofitted onto already-published episodes.
-- **Episode 50:** **Fifty Wonders Pebble** — Pebble Hill's Sparse→Moderate→Dense progression (`bubu_universe_bible.md` §10) becomes visibly "Dense" for the first time.
-- **Episode 100:** **Hundred Wonders Pebble** — Pebble Hill reaches its fullest on-screen presentation.
-- **Reserved, unscheduled:** **Quiet Pebble** (next Big Feelings flagship episode) and **Rainbow Pebble** (next major compilation) — both claimed only when their triggering content is actually produced, never pre-assigned to a episode number.
-- **Toy/book/app integration:** Once 10+ Flagship pebbles are claimed (expected around Episode 20-25), Pebble Hill itself becomes viable as a standalone collectible "map" — a physical play-set or app screen showing every claimed pebble in its facet color — without requiring any change to in-episode visuals or mechanics.
+- **Deferred pool (15 pebbles):** Circle Spin, Go-Go, Bounce Bright, Two Step, Shape Star, New Beginnings, Roll Along, Slide Down, Three Together, Splash Twin, Wash Time, Namaste, Festival Lights, Rainy Day, and Snug Season Pebbles (full specs in Sections B/C above) are claimed from Episode 26 onward, at the same roughly-every-3-5-episodes cadence, in any order that fits pillar rotation (`production/production_bible.md` Step 2) and the Arc 4 English-before-Hindi dependency. New entries are added to this taxonomy as they're scheduled — never retrofitted onto already-published episodes.
+  - **Shape Star Pebble** should land within Episodes 26-30, so its "first 'Shine!' word" introduction stays inside the Action Word Expansion Roadmap's Phase 2 window (Episodes 11-30, `canon/engagement_framework.md`).
+  - **Namaste Pebble** should land after **First Friend Pebble** (Episode 18) — Animal Friends/Friendship Pond must already be open (Arc 4, English-before-Hindi dependency).
+  - **Splash Twin Pebble** is thematically a "twin" of the Splash Pebble (Episode 14) and reads best once Pebble Hill already shows the original Splash Pebble.
+  - Seasonal pebbles (New Beginnings, Festival Lights, Rainy Day, Snug Season) should land in episodes whose real-world release date matches their calendar window — their exact episode number is set at production-scheduling time, not fixed here.
+- **Episode 50:** **Fifty Wonders Pebble** — Pebble Hill's Sparse→Moderate→Dense progression (`bubu_universe_bible.md` §10) becomes visibly "Dense" for the first time. This is a Rare pebble, separate from the Named-pebble cadence above, and the cadence should skip Episode 50 if it would otherwise land there.
+- **Episode 100:** **Hundred Wonders Pebble** — Pebble Hill reaches its fullest on-screen presentation. Likewise separate from the cadence; skip Episode 100 if the cadence would otherwise land there.
+- **Reserved, unscheduled:** **Quiet Pebble** (next Big Feelings flagship episode) and **Rainbow Pebble** (next major compilation) — both claimed only when their triggering content is actually produced, never pre-assigned to an episode number, and don't count against the Named-pebble cadence.
+- **Toy/book/app integration:** Once 10+ Flagship/Educational/Seasonal pebbles are claimed (expected by roughly Episode 40-45 at this cadence), Pebble Hill itself becomes viable as a standalone collectible "map" — a physical play-set or app screen showing every claimed pebble in its facet color — without requiring any change to in-episode visuals or mechanics.

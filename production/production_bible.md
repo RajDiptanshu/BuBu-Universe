@@ -294,6 +294,8 @@ The SFX character should match the episode's payoff: a "splash" for Water Play, 
 
 ## Voice
 
+All narration must conform to the **Bubu Voice Lock** (`canon/bubu_personality_bible.md`): a gender-neutral toddler voice (age perception 2-4), never sarcastic, never loud, never fast, with a maximum phrase length of 3 words.
+
 Narration is sparse, simple, and tightly synced to on-screen text:
 
 - Scene 0 (Episode 02+): "BUBU!" + soft chime — the brand sting's only sound.

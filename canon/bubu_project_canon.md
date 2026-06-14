@@ -88,3 +88,16 @@ Applied as the final pre-production lock before Episode 02, resolving all 8 open
 11. **Episode Continuity Rule** (new §10): formalizes what persists (Pebble Hill tier, Flagship claim log, hero-color non-repetition window) vs. what resets every episode (locations, Bubu's pose, Generic pebbles) (`bubu_universe_bible.md` §10).
 
 This entry locks the universe ahead of Episode 02 production. New canon files introduced by this update: `canon/wonder_pebble_taxonomy.md`, `canon/bubu_audio_bible.md`.
+
+### 2026-06-14 — Audio Evolution Rule (World Rule #10)
+
+12. **Audio Evolution Rule** (new World Rule #10): starting with Episode 2, rhythmic chant vocals built from that episode's action words (e.g., "Tap tap tap... Tap tap tap... Splash!") may be woven into the music bed as part of the continuous layer — music, not narration, and never a second notable sound or a replacement for the single Payoff SFX. Chant vocals and spoken narration are independent; either, both, or neither may be used with no change to visual or timing structure. Full spec in `bubu_audio_bible.md` §3 ("Chant Vocals"); roadmap reconciled in `bubu_audio_bible.md` §8 (`bubu_universe_bible.md` World Rule #10).
+
+### 2026-06-14 — Song Fragment Rule and Bubu Voice Lock
+
+13. **Song Fragment Rule** (new World Rule #11): any chant-vocal action-word sequence (World Rule #10) that demonstrates exceptional retention may be promoted, retroactively, to an **evergreen musical fragment** — a short, fixed melodic phrase (e.g., "Tap Tap Tap Splash," "Pop Pop Pop Wow") reused identically wherever that sequence recurs. A promoted fragment falls under the Audio Ownership Rule (World Rule #9) and may later form the basis of a full song, though song creation remains a separate, future phase. Full spec in `bubu_audio_bible.md` §3 ("Song Fragments"), cross-referenced in §8's Episodes 31-100 roadmap (`bubu_universe_bible.md` World Rule #11).
+14. **Bubu Voice Lock** (new section in `bubu_personality_bible.md`): Bubu's voice — and all narration — is locked to a gender-neutral toddler voice (age perception 2-4), never sarcastic, never loud, never fast, with a maximum phrase length of 3 words (e.g., "Bubu!", "Wow!", "Splash!", "Pop!"). Applies to all spoken/chanted elements, including future chant vocals and song fragments (`bubu_personality_bible.md`; cross-referenced in `production_bible.md`'s Voice section).
+
+### 2026-06-14 — Named Pebble Cadence Rule (Wonder Pebble Taxonomy revision)
+
+15. **Named Pebble Cadence Rule**: a Named (Flagship/Educational/Seasonal) Wonder Pebble is now claimed roughly **every 3-5 episodes**, not every episode — every other episode uses a Generic pebble, per World Rule #8. The "Recommended Rollout Order (Episodes 2-25)" table is revised accordingly: only 6 of the 21 Flagship/Educational/Seasonal pebbles (First Wonder, Red Bloom, Counting Crown, Splash, First Friend, Home Glow — landing on Episodes 2, 6, 10, 14, 18, 22) are placed within Episodes 2-25; the remaining 15 move to an Episode 26+ pool, to be scheduled at the same cadence. Reason: spacing out Named claims keeps Pebble Hill's facet-colored pebbles rare and meaningful, so it "feels earned" by Episode 100 (`canon/wonder_pebble_taxonomy.md`).

@@ -108,6 +108,21 @@ Bubu is **warm, curious, and easily delighted** — a baby elephant who treats e
 
 ---
 
+## Bubu Voice Lock
+
+Bubu's voice — and any narration delivered alongside Bubu — is locked to a single profile across all 1000 episodes, every pillar, and every platform:
+
+| Property | Specification |
+|---|---|
+| **Voice type** | Gender-neutral toddler voice |
+| **Age perception** | 2-4 years old — the voice should sound like it belongs to the audience, not an adult narrating to them |
+| **Tone** | Never sarcastic. Never loud. Never fast — calm, warm, and unhurried, matching World Rule #1's "everything starts quiet" |
+| **Maximum phrase length** | 3 words — e.g., "Bubu!", "Wow!", "Splash!", "Pop!" |
+
+This lock applies to every spoken or chanted element across the franchise — Scene 1's "Bubu!", Build-word repetitions, "Wow!" at the Anticipation→Payoff boundary, Payoff words, "Arre, Bubu! ...[word]!", and any chant vocals (World Rule #10) or song fragments (World Rule #11) that include spoken/sung words. It is the voice equivalent of the locked visual identity (`bubu_core_identity_block.md`) — just as Bubu always *looks* like Bubu, Bubu always *sounds* like Bubu, in any language or platform, per `bubu_franchise_vision.md`.
+
+---
+
 ## Voice Constraint — No Self-Introductions
 
 Bubu **never** delivers a verbal self-introduction (e.g., "Hi, I'm Bubu the Elephant!", "My name is Bubu," or any spoken/on-screen sentence describing who Bubu is) — in any episode, on any platform, with no exceptions. Recognition comes entirely from visual identity (`bubu_core_identity_block.md`), the **BUBU! Brand Sting** (Signature #7), and the "Bubu!" Scene 1 label — never from narrated self-description. This operates within, and does not replace, the full narration structure in `production/production_bible.md`'s Voice section.
